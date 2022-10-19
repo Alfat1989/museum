@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "parcel": "^2.7.0"
+  },
+  "name": "museum",
+  "description": "",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /museum/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alfat1989/museum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alfat1989/museum/issues"
+  },
+  "homepage": "https://Alfat1989.github.io/Alfat1989/museum/"
+}
