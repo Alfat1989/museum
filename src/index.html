@@ -2,14 +2,201 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <h1>Museum Project</h1>
+    <header>
+        <div class="container">
+            <p class="header__paragraph">The Pushkin State Museum of Fine Arts</p>
+            <nav>
+                <div class="header__menu">menu</div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section__hero">
+            <div class="container">
+                <img class="hero__image" src="./img/images/hero-photo.jpg" alt="" />
+
+                <div class="hero__play">
+                    <div class="hero__play-media"></div>
+                </div>
+
+                <button type="button">купить билеты</button>
+                <h1 class="hero__name">музей изобразитльных искусств</h1>
+                <img class="" src="./img/images/people-at-the-table.jpg" alt="people at the table" />
+                <p>имени</p>
+                <h2>А.С. ПУШКИНА</h2>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2 class="title about__title">
+                    Музей им. Пушкина - одно из крупнейших в России художественных
+                    собраний зарубежного искусства
+                </h2>
+
+                <p class="about__description">
+                    Основан профессором Московского университета Иваном Цветаевым в
+                    <span>1912 году</span>
+                </p>
+
+                <ul class="about__list">
+                    <li class="about__item">
+                        <p class="about__item-number">01/</p>
+                        <p class="about__item-description">
+                            Художественная коллекция музея насчитывает более
+                            <span class="span__description">350 тысяч</span> произведений, в
+                            том числе работы
+                            <span class="span__description">Дюрера, Кранаха, Рембрандта, Рубенса, Тьеполо</span>, работы
+                            французских импрессионистов
+                        </p>
+                        <img src="./img/images/people-at-the-market.jpg" alt="people at the" />
+                    </li>
+
+                    <li class="about__item">
+                        <p class="about__item-number">02/</p>
+                        <p class="about__item-description">
+                            Картинная галерея музея открылась в 1924 году, однако первые
+                            живописные подлинники были подарены музею русским консулом в
+                            Триесте М. С. Щекиным ещё в 1910 году
+                        </p>
+                        <img src="./img/images/room-with-paintings.jpg" alt="people at the" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="exposition">
+            <div class="container">
+                <div class="exposition_1">
+                    <h2 class="title exposition__title">Ближайшие экспозиции</h2>
+                    <ul class="exposition__list">
+                        <li class="exposition__item">
+                            <p class="exposition__date">Выставка | 17 июня 2022</p>
+                            <img src="./img/images/bikini-gallery.jpg" alt="bikini" />
+                            <p class="exposition__author">Лев Гутовский</p>
+                            <h2 class="exposition__item-title">“ИЗ НИОТКУДА В НИКУДА"</h2>
+                            <a href="#">Узнать больше</a>
+                        </li>
+                        <li class="exposition__item">
+                            <p class="exposition__date">Выставка | 18 июня 2022</p>
+                            <img src="./img/images/old-man.jpg" alt="old man" />
+                            <p class="exposition__author">Пабло Пикассо</p>
+                            <h2 class="exposition__item-title">“ХУДОЖНИК СРЕДИ ПОЭТОВ”</h2>
+                            <a href="#">Узнать больше</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="exposition_2">
+                    <h2 class="title exposition__title">ПОСТОЯННЫЕ экспозиции</h2>
+                    <p class="exposition__number">01/</p>
+                    <button type="button" class="exposition__button--left">
+                        назад
+                    </button>
+                    <button type="button" class="exposition__button--right">
+                        вперед
+                    </button>
+                    <img src="./img/images/tableware.jpg" alt="tableware" />
+                    <h2 class="exposition__item-title">
+                        ЗАПАДНОЕВРОПЕЙСКИЙ ФАРФОР XVIII - XX ВЕКОВ
+                    </h2>
+                    <p class="exposition__description">
+                        Изделия мануфактур Европы: Мейсена, Севра, Берлинской и
+                        Копенгагенской королевских мануфактур, а также частных предприятий
+                        Германии, Франции, Англии и др.
+                    </p>
+                    <a href="#">Узнать больше</a>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tickets">
+            <div class="container">
+                <p class="title tickets__title">БИЛЕТЫ И ЛЬГОТЫ</p>
+                <ul class="tickets__list">
+                    <li class="tickets__item">
+                        <p class="tickets__item-title">Для взрослых <span class="tickets__span">100 p</span></p>
+                        <!-- <p class="tickets__item-price">100 р</p> -->
+                        <p class="tickets__description">постоянные экспозиции <span class="tickets__span-decr">онлайн
+                                оплата</span></p>
+                        <button type="button" class="tickets__button">КУПИТЬ БИЛЕТ</button>
+                        <p></p>
+                    </li>
+                    <li class="tickets__item">
+                        <p class="tickets__item-title">Пушкинская карта <span class="tickets__span">50 p</span></p>
+                        <!-- <p class="tickets__item-price">100 р</p> -->
+                        <p class="tickets__description">постоянные экспозиции <span class="tickets__span-decr">онлайн
+                                оплата</span></p>
+                        <button type="button" class="tickets__button">КУПИТЬ БИЛЕТ</button>
+                        <p></p>
+                    </li>
+                    <li class="tickets__item">
+                        <p class="tickets__item-title">Для льготников <span class="tickets__span">0 p</span></p>
+                        <!-- <p class="tickets__item-price">100 р</p> -->
+                        <p class="tickets__description">все экспозиции музея<span class="tickets__span-decr">онлайн
+                                оплата</span></p>
+                        <button type="button" class="tickets__button">КУПИТЬ БИЛЕТ</button>
+                        <p></p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="events">
+            <div class="container">
+                <h2 class="title">
+                    События
+                </h2>
+                <ul class="events__list">
+                    <li class="events__item">
+                        <h2 class="events__item-title">Между землей и небом</h2>
+                        <p class="events__data">Сегодня: 11:00 - 20:00</p>
+                        <img src="./img/images/fly-man.jpg" alt="fly man" class="events__img" />
+                        <a href="#" class="events__link">Узнать больше</a>
+                    </li>
+                    <li class="events__item">
+                        <h2 class="events__item-title">Музей квестов</h2>
+                        <p class="events__data">23 июня в 17:30</p>
+                        <img src="./img/images/kids.jpg" alt="kids in gallery" class="events__img" />
+                        <a href="#" class="events__link">Узнать больше</a>
+                    </li>
+                    <li class="events__item">
+                        <h2 class="events__item-title">Знакомство с пушкинским</h2>
+                        <p class="events__data">24 июля в 15:30 </p>
+                        <img src="./img/images/gallery-with-angels.jpg" alt="fly man" class="events__img" />
+                        <a href="#" class="events__link">Узнать больше</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts">
+                    <h2 class="contacts__title">Контакты</h2>
+                    <p class="contacts__telephon-title">Телефон</p>
+                    <a href="+74956979578" class="contacts__telephon">+74956979578</a>
+                </div>
+                <div class="contacts">
+                    <h2 class="contacts__title">Адрес</h2>
+                    <p class="contacts__telephon-title">Москва, ул. Волхонка, 12</p>
+                    <a href="#" class="contacts__telephon">Показать на карте</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
 </body>
 
 </html>
